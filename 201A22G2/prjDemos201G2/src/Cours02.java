@@ -1,5 +1,5 @@
-public class DeuxiemeCours {
-    public DeuxiemeCours() {// alt-Insert
+public class Cours02 {
+    public Cours02() {// alt-Insert
         afficherTexte();
         faireOperationArithmetique();
         faireDifferenteOperationArithmetique();
@@ -63,6 +63,6 @@ public class DeuxiemeCours {
     }
 
     public static void main(String[] args) {
-        new DeuxiemeCours();
+        new Cours02();
     }
 }

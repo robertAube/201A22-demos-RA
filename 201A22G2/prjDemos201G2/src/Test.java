@@ -5,6 +5,7 @@
 //Prénom : Robert
 //DA : 1234567
 //Date : (2022-09-13)
-package PACKAGE_NAME;public class Test {
+
+public class Test {
 
 }

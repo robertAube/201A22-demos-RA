@@ -1,10 +1,8 @@
-public class CoursDebug {
-    public CoursDebug() {
+public class Cours03_Debug {
+    public Cours03_Debug() {
         AfficherNbPommmeParPersonne(5,2);
         AfficherNbPommmeParPersonne(5,1);
-        AfficherNbPommmeParPersonne(5,3);
-        AfficherNbPommmeParPersonne(13,3);
-//        AfficherNbPommmeParPersonne(13,0); //Génère une exception en raison de la division par 0.
+     //   AfficherNbPommmeParPersonne(5,0);
         AfficherSurfaceRectangle(5, 3);
     }
 
@@ -16,16 +14,14 @@ public class CoursDebug {
     }
 
     private void AfficherNbPommmeParPersonne(int nbPomme, int nbPersonne) {
-        int nbPommeParPersonne;
-        float floatNbPommeParPersonne;
+        float nbPommeParPersonne;
 
-        nbPommeParPersonne =  nbPomme / nbPersonne; //division entière
-        floatNbPommeParPersonne = (float) nbPomme / nbPersonne; //division réelle
+        nbPommeParPersonne = (float) nbPomme / nbPersonne;
 
-        System.out.println("Avec " + nbPomme + " pommes pour " + nbPersonne + " personnes, chacun aura " + nbPommeParPersonne + " pommes. (" + floatNbPommeParPersonne + ")");
+        System.out.println("Avec " + nbPomme + " pommes pour " + nbPersonne + " personnes, chacun aura " + nbPommeParPersonne + " pommes.");
     }
 
     public static void main(String[] args) {
-        new  CoursDebug();
+        new Cours03_Debug();
     }
 }
