@@ -8,9 +8,9 @@
 
 public class Cours07_bool_si {
     public Cours07_bool_si() {
-      //  testerBoolean();
-//        testerLeSi();
-        testerTypeBoolean();
+        //  testerBoolean();
+        testerLeSi();
+//        testerTypeBoolean();
     }
 
     private void testerTypeBoolean() {
@@ -24,14 +24,14 @@ public class Cours07_bool_si {
     }
 
     private void testerLeSi() {
-        afficherSiUnNbEstPositif(5);
-        afficherSiUnNbEstPositif(0);
-        afficherSiUnNbEstPositif(1);
-        afficherSiUnNbEstPositif(-1);
+//        afficherSiUnNbEstPositif(5);
+//        afficherSiUnNbEstPositif(0);
+//        afficherSiUnNbEstPositif(1);
+//        afficherSiUnNbEstPositif(-1);
 
-        afficherSiUnNbEstPositifOuNegatif(0);
-        afficherSiUnNbEstPositifOuNegatif(1);
-        afficherSiUnNbEstPositifOuNegatif(-1);
+        afficherSiUnNbEstPositifOuNegatifV3(0);
+        afficherSiUnNbEstPositifOuNegatifV3(1);
+        afficherSiUnNbEstPositifOuNegatifV3(-1);
     }
 
     private void afficherSiUnNbEstPositif(int nombre) {
@@ -43,12 +43,35 @@ public class Cours07_bool_si {
     private void afficherSiUnNbEstPositifOuNegatif(int nombre) {
         if (nombre >= 0) {
             System.out.println(nombre + " est positif.");
-        }
-        else {
+        } else {
             System.out.println(nombre + " est négatif.");
         }
     }
 
+
+    private void afficherSiUnNbEstPositifOuNegatifV2(int nombre) {
+        System.out.print(nombre);
+        if (nombre >= 0) {
+            System.out.println(" est positif.");
+        } else {
+            System.out.println(" est négatif.");
+        }
+
+        System.out.println("Méthode terminée");
+    }
+
+    private void afficherSiUnNbEstPositifOuNegatifV3(int nombre) {
+        System.out.print(nombre);
+        if (nombre > 0) {
+            System.out.println(" est positif.");
+        } else if (nombre < 0){
+            System.out.println(" est négatif.");
+        } else {
+            System.out.println(" est ni négatif, ni positif.");
+        }
+
+        System.out.println("Méthode terminée");
+    }
 
     private void testerBoolean() {
         System.out.println("true -> " + true);
