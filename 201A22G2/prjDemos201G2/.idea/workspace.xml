@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cours08_if_else_elseIf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cours07_bool_si.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours07_bool_si.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cours08_if_else_elseIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours08_if_else_elseIf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1662984716943" duration="2590000" />
       <workItem from="1663093750788" duration="978000" />
       <workItem from="1663255163533" duration="2000" />
-      <workItem from="1663272721667" duration="2714000" />
+      <workItem from="1663272721667" duration="4110000" />
     </task>
     <servers />
   </component>
