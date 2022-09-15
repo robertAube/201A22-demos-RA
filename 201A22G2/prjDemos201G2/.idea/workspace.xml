@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cours07_bool_si.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cours03/src/CoursDebug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours03_Debug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cours04/src/Cours04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cours05-Scanner/src/LectureClavier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours05_LectureClavier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DeuxiemeCours/src/DeuxiemeCours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
@@ -76,6 +66,7 @@
       <updated>1662984715752</updated>
       <workItem from="1662984716943" duration="2590000" />
       <workItem from="1663093750788" duration="978000" />
+      <workItem from="1663255163533" duration="2000" />
     </task>
     <servers />
   </component>

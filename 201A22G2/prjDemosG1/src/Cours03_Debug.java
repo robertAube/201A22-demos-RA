@@ -1,5 +1,5 @@
-public class CoursDebug {
-    public CoursDebug() {
+public class Cours03_Debug {
+    public Cours03_Debug() {
         afficherNbPommmeParPersonne(5, 2);
         afficherNbPommmeParPersonne(5, 1);
         afficherNbPommmeParPersonne(5, 3);
@@ -35,6 +35,6 @@ public class CoursDebug {
     }
 
     public static void main(String[] args) {
-        new CoursDebug();
+        new Cours03_Debug();
     }
 }
