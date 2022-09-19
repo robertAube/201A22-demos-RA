@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class LectureClavier {
-    public LectureClavier() {
+public class Cours05_LectureClavier {
+    public Cours05_LectureClavier() {
         // lireAuClavierEtAfficherMot();
 
         jouerAvecOperateurAffectation();
@@ -44,6 +44,6 @@ public class LectureClavier {
     }
 
     public static void main(String[] args) {
-        new LectureClavier();
+        new Cours05_LectureClavier();
     }
 }

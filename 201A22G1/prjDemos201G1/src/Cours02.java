@@ -2,10 +2,10 @@
 Le nom de la classe est toujours le même que le nom du fichier.
 Le nom doit commencer par une majuscule
 */
-public class DeuxiemeCours {
+public class Cours02 {
 
     //La méthode Constructeur a toujours le même nome que la classe et du fichier
-    public DeuxiemeCours() {  //Pour créer le constructeur de la classe je fais ALT-Insert
+    public Cours02() {  //Pour créer le constructeur de la classe je fais ALT-Insert
 
         System.out.println("Je suis dans le constructeur.");
         afficherBonjourLeMonde();
@@ -83,6 +83,6 @@ public class DeuxiemeCours {
 
     public static void main(String[] args) {
         System.out.println("Je suis dans le main().");
-        new DeuxiemeCours(); //Appelle la méthode constructeur de ma classe
+        new Cours02(); //Appelle la méthode constructeur de ma classe
     }
 }

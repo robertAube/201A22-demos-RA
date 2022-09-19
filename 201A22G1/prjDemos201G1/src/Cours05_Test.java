@@ -6,6 +6,6 @@
 //DA : 1234567
 //Date : (2022-09-08)
 
-public class Test {
+public class Cours05_Test {
 
 }
