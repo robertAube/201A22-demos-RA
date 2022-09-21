@@ -7,9 +7,9 @@
 
 public class Cours07_bool_si {
     public Cours07_bool_si() {
-        //testerBoolean();
+        testerBoolean();
         //testerSi();
-        testerAfficherNoteEstReussite();
+        //testerAfficherNoteEstReussite();
     }
 
     private void testerSi() {
@@ -63,6 +63,15 @@ public class Cours07_bool_si {
         System.out.println("i <= 3 && i < 4 -> " + (i <= 3 && i < 4));
         System.out.println("2 == 3 && 2 < 4) -> " + (2 == 3 && 2 < 4));
         System.out.println("2 == 3 || 2 < 4 -> " + (2 == 3 || 2 < 4));
+
+
+        System.out.println("2 != 3 -> " + (2 != 3));
+        System.out.println("3 != 3 -> " + (3 != 3));
+
+        System.out.println("!true -> " + !true);
+        System.out.println("!false -> " + !false);
+        System.out.println("!(3 == 3) -> " + !(3 == 3));
+
     }
 
     public static void main(String[] args) {
