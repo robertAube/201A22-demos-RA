@@ -8,8 +8,8 @@
 
 public class Cours07_bool_si {
     public Cours07_bool_si() {
-        //  testerBoolean();
-        testerLeSi();
+          testerBoolean();
+  //      testerLeSi();
 //        testerTypeBoolean();
     }
 
@@ -64,7 +64,7 @@ public class Cours07_bool_si {
         System.out.print(nombre);
         if (nombre > 0) {
             System.out.println(" est positif.");
-        } else if (nombre < 0){
+        } else if (nombre < 0) {
             System.out.println(" est négatif.");
         } else {
             System.out.println(" est ni négatif, ni positif.");
@@ -86,6 +86,13 @@ public class Cours07_bool_si {
         System.out.println("2 <= 3 && 3 > 4 -> " + (2 <= 3 && 3 > 4));
         System.out.println("2 <= 3 || 3 < 4 -> " + (2 <= 3 || 3 < 4));
         System.out.println("2 <= 3 || 3 > 4 -> " + (2 <= 3 || 3 > 4));
+
+        System.out.println("2 != 3 -> " + (2 != 3));
+        System.out.println("3 != 3 -> " + (3 != 3));
+
+        System.out.println("!true -> " + !true);
+        System.out.println("!false -> " + !false);
+        System.out.println("!(3 == 3) -> " + !(3 == 3));
     }
 
     public static void main(String[] args) {

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cours09Iterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cours10Iterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cours07_bool_si.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours07_bool_si.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cours09Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours09Iterative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cours09Iterative">
+  <component name="RunManager" selected="Application.Cours10Iterative">
     <configuration name="Cours07_bool_si" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cours07_bool_si" />
       <module name="prjDemos201G2" />
@@ -67,11 +69,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Cours10Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cours10Iterative" />
+      <module name="prjDemos201G2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cours10Iterative" />
         <item itemvalue="Application.Cours09Iterative" />
-        <item itemvalue="Application.Cours08_if_else_elseIf" />
         <item itemvalue="Application.Cours07_bool_si" />
+        <item itemvalue="Application.Cours08_if_else_elseIf" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +99,8 @@
       <workItem from="1663272721667" duration="4706000" />
       <workItem from="1663588683103" duration="5667000" />
       <workItem from="1663696855549" duration="151000" />
+      <workItem from="1663877946801" duration="4606000" />
+      <workItem from="1663882666579" duration="5000" />
     </task>
     <servers />
   </component>

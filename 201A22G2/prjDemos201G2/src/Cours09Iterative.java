@@ -6,10 +6,10 @@
 
 public class Cours09Iterative {
     public Cours09Iterative() {
-        //   jouerAvecChar();
+           jouerAvecChar();
 //        jouerAvecStringCharAt();
 //        jouerAvecModulo();
-        testerCompterDe1AN();
+ //       testerCompterDe1AN();
     }
 
     private void testerCompterDe1AN() {
@@ -92,6 +92,11 @@ public class Cours09Iterative {
 
         lettre = 'a'; //constante char
 
+        System.out.println(lettre);
+        System.out.println((char)(lettre + 1));
+
+        lettre = 68; //an ne pas faire
+        lettre = 'D';
         System.out.println(lettre);
 
         System.out.println("Canad" + lettre);
