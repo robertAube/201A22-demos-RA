@@ -1,5 +1,5 @@
-public class Cours10Iterative {
-    public Cours10Iterative() {
+public class Cours10_IterativeFor {
+    public Cours10_IterativeFor() {
         testerNbFoisLaLettreVWhile();
         testerNbFoisLaLettreVFor();
     }
@@ -57,6 +57,6 @@ public class Cours10Iterative {
     }
 
     public static void main(String[] args) {
-        new Cours10Iterative();
+        new Cours10_IterativeFor();
     }
 }

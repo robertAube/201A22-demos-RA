@@ -4,8 +4,8 @@
 //DA : 1234567
 //Date : (2022-09-19)
 
-public class Cours09Iterative {
-    public Cours09Iterative() {
+public class Cours09_IterativeWhile {
+    public Cours09_IterativeWhile() {
            jouerAvecChar();
 //        jouerAvecStringCharAt();
 //        jouerAvecModulo();
@@ -107,6 +107,6 @@ public class Cours09Iterative {
     }
 
     public static void main(String[] args) {
-        new Cours09Iterative();
+        new Cours09_IterativeWhile();
     }
 }
