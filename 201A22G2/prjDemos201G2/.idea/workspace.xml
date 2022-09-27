@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cours11_IterativeDoWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cours09Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours09_IterativeWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cours10Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cours10_IterativeFor.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +105,7 @@
       <workItem from="1663877946801" duration="4606000" />
       <workItem from="1663882666579" duration="5000" />
       <workItem from="1664194080564" duration="4027000" />
+      <workItem from="1664200048242" duration="13000" />
     </task>
     <servers />
   </component>
