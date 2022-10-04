@@ -1,13 +1,51 @@
 public class Cours12 {
     public Cours12() {
-        testStrMelanger();
-
+        //    testStrMelanger();
+        texterGetStringCarre();
     }
+
 
     private void testStrMelanger() {
         System.out.println(strMelanger("abcd"));
         System.out.println(strMelanger("").equals(""));
         System.out.println(strMelanger("aujourd'hui").equals("ajudhiuor'u"));
+    }
+
+    private void texterGetStringCarre() {
+        System.out.println(getStringCarre(1));
+        System.out.println(getStringCarre(2));
+        System.out.println(getStringCarre(3));
+    }
+
+    /*
+o	Écrire une méthode getStringCarre  dont le teste suivant…
+private void textergetStringCarre() {
+System.out.println(getStringCarre(1));
+System.out.println(getStringCarre(2));
+System.out.println(getStringCarre(3));
+}
+affiche…
+11
+
+11 21
+12 22
+
+11 21 31
+12 22 32
+13 23 33
+
+ */
+    private String getStringCarre(int limite) {
+        String str = "";
+
+        for (int ligne = 1; ligne <= limite; ligne++) {  //boucle imbriquée
+            for (int colonne = 1; colonne <= limite; colonne++) {
+                str += colonne + "" + ligne + " ";
+            }
+            str += "\n";
+        }
+
+        return str;
     }
 
 
@@ -28,7 +66,7 @@ public class Cours12 {
 
         debut = "";
         fin = "";
-        for (int index = 0 ; index < str.length(); index++) {
+        for (int index = 0; index < str.length(); index++) {
             c = str.charAt(index);
 
             if (index % 2 == 0) { // pair
@@ -37,8 +75,9 @@ public class Cours12 {
                 fin += c;
             }
         }
-        return debut + "\n" + fin;
+        return debut + fin;
     }
+
 
     public static void main(String[] args) {
         new Cours12();
