@@ -1,5 +1,5 @@
-public class Cours12 {
-    public Cours12() {
+public class Cours12_boucleImbrique {
+    public Cours12_boucleImbrique() {
         //    testStrMelanger();
         texterGetStringCarre();
     }
@@ -80,6 +80,6 @@ affiche…
 
 
     public static void main(String[] args) {
-        new Cours12();
+        new Cours12_boucleImbrique();
     }
 }
