@@ -1,20 +1,33 @@
 public class Cours14_tableau {
     public Cours14_tableau() {
-    //    jouerAvecTableau1();
-   //     jouerAvecTableau2();
+        //    jouerAvecTableau1();
+        jouerAvecTableau2();
         testerInitialiserTableau();
 
     }
 
     private void testerInitialiserTableau() {
-        int [] tabNb1 = initialiserTableau(6, 4);
+        int[] tabNb1 = initialiserTableau(6, 4);
         afficherTableau(tabNb1);
     }
 
+    private double calculerMoyenne(int[] tab) {
+        int somme = calculerSomme(tab);
+
+        return somme / tab.length;
+    }
+
+    private int calculerSomme(int[] tab) {
+        int somme = 0;
+        for (int i = 0; i < tab.length; i++) {
+            somme += tab[i];
+        }
+        return somme;
+    }
 
     //	Retourner un tableau à partir d’une méthode
     private int[] initialiserTableau(int longueur, int valeurInitialisation) {
-        int [] tabRetour;
+        int[] tabRetour;
         tabRetour = new int[longueur];
         for (int i = 0; i < longueur; i++) {
             tabRetour[i] = valeurInitialisation;
@@ -39,6 +52,9 @@ public class Cours14_tableau {
         doublerValeur(i);
 
         System.out.println(i);
+
+        System.out.println("la somme est " + calculerSomme(tabNb));
+        System.out.println("la moyenne est " + calculerMoyenne(tabNb));
     }
 
     private void doublerValeur(int i) {
