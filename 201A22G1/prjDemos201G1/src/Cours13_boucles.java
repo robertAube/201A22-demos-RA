@@ -1,5 +1,5 @@
-public class Cours13_Boucles {
-    public Cours13_Boucles() {
+public class Cours13_boucles {
+    public Cours13_boucles() {
 //        testerEstVoyelle();
         testerCombienDeVoyelle();
     }
@@ -63,6 +63,6 @@ public class Cours13_Boucles {
 
 
     public static void main(String[] args) {
-        new Cours13_Boucles();
+        new Cours13_boucles();
     }
 }

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours13_boucles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cours13_Boucles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours12_boucleImbrique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +110,7 @@
       <workItem from="1664482708538" duration="4120000" />
       <workItem from="1664908261826" duration="4000" />
       <workItem from="1665090347928" duration="1991000" />
+      <workItem from="1665609749459" duration="298000" />
     </task>
     <servers />
   </component>
