@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="" />
+    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cours16_Tableau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,14 +46,7 @@
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cours13_Boucles">
-    <configuration name="Cours09_IterativeWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cours09_IterativeWhile" />
-      <module name="prjDemos201G2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Cours16_Tableau">
     <configuration name="Cours10_IterativeFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cours10_IterativeFor" />
       <module name="prjDemos201G2" />
@@ -79,13 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Cours16_Tableau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cours16_Tableau" />
+      <module name="prjDemos201G2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cours16_Tableau" />
         <item itemvalue="Application.Cours13_Boucles" />
         <item itemvalue="Application.Cours12_BoucleImbrique" />
         <item itemvalue="Application.Cours11_IterativeDoWhile" />
         <item itemvalue="Application.Cours10_IterativeFor" />
-        <item itemvalue="Application.Cours09_IterativeWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +114,7 @@
       <workItem from="1664908261826" duration="4000" />
       <workItem from="1665090347928" duration="1991000" />
       <workItem from="1665609749459" duration="298000" />
+      <workItem from="1666296798286" duration="3798000" />
     </task>
     <servers />
   </component>
