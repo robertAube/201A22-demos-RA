@@ -106,7 +106,7 @@ public class Cours16_Tableau {
         afficherTableau(tabNb);
     }
 
-    private void afficherTableau(int[] tabNb) {
+    public static void afficherTableau(int[] tabNb) {
         System.out.print("{");
         for (int i = 0; i < tabNb.length; i++) {
             System.out.print((i == 0 ? "" : ", ") + tabNb[i]);
