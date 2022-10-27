@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours16_tableau2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours14_tableau.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours14_tableau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/cours17_pizza_oo/JouerAvecPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/cours17_pizza_oo/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G1/prjDemos201G1",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G1/prjDemos201G1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
@@ -118,6 +118,7 @@
       <workItem from="1666296798286" duration="3798000" />
       <workItem from="1666613509566" duration="3639000" />
       <workItem from="1666721276012" duration="1655000" />
+      <workItem from="1666885278255" duration="612000" />
     </task>
     <servers />
   </component>
