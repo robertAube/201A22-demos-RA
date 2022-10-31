@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cours18_Pizza_OO/JouerAvecPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cours18_Pizza_OO/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G2/prjDemos201G2",
+    "last_opened_file_path": "U:/!repo/201prof/201A21-TP3TableauV2",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
@@ -133,7 +129,7 @@
       <workItem from="1666885278255" duration="1206000" />
       <workItem from="1666903132138" duration="4263000" />
       <workItem from="1667218221715" duration="420000" />
-      <workItem from="1667218713338" duration="4634000" />
+      <workItem from="1667218713338" duration="5339000" />
     </task>
     <servers />
   </component>
