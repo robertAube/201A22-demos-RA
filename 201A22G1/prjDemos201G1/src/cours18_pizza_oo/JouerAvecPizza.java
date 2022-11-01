@@ -7,7 +7,19 @@ public class JouerAvecPizza {
         // jouer1();
         // jouer2();
         //    testerSetXYV1();
-        testerSetXYV2();
+        //testerSetXYV2();
+        testerValidationVitesse();
+    }
+
+    private void testerValidationVitesse() {
+        Pizza p1;
+
+        for (int vitesse = 0; vitesse <= 60; vitesse++) {
+            System.out.println("Instancier avec une vitesse de " + vitesse + ": ");
+            p1 = new Pizza(0, 0, vitesse, "verte");
+            System.out.println(p1);
+        }
+        // il n'y a qu'une pizza: la dernière...
     }
 
     private void testerSetXYV2() {
@@ -19,7 +31,7 @@ public class JouerAvecPizza {
         System.out.println(Pizza.estValide(x, y));
 
         if (Pizza.estValide(x, y)) {
-            p1 = new Pizza(x,y, 22, "Jaune");
+            p1 = new Pizza(x, y, 22, "Jaune");
         }
 
 

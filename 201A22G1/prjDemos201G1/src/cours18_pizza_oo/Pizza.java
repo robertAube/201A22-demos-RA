@@ -8,6 +8,10 @@ public class Pizza {
     public static final int LIMITE_SUPERIEURE = 50; //défini pour mon x et mon y
     public static final int LIMITE_INFERIEURE = 0; //défini pour mon x et mon y
 
+    public static final int VITESSE_MIN = 0;
+
+    public static final int VITESSE_MAX = 50;
+
     //attributs ou variables d'instance : Existe seulement si j'ai une instance
     private int x;
     private int y;
@@ -39,7 +43,16 @@ public class Pizza {
     }
 
     public void setVitesse(int vitesse) {
-        this.vitesse = vitesse;
+        if (estValideVitesse(vitesse)) {
+            this.vitesse = vitesse;
+        }
+        else {
+            throw new IllegalArgumentException("Cette vitesse est invalide : " + vitesse);
+        }
+    }
+
+    private static boolean estValideVitesse(int vitesse) {
+        return VITESSE_MIN <= vitesse && vitesse <= VITESSE_MAX;
     }
 
     //manque la validation pour faire correctement l'encapsulation
