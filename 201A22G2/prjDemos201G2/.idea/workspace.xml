@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cours21_ExerciceTab/ExerciceTabTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/cours20_ExerciceTab/ExerciceTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/cours20_ExerciceTab/ExerciceTabTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/util/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cours21_ExerciceTab/ExerciceTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cours21_ExerciceTab/ExerciceTab.java" afterDir="false" />
     </list>
@@ -152,6 +153,7 @@
       <workItem from="1667218713338" duration="5339000" />
       <workItem from="1667506708706" duration="4622000" />
       <workItem from="1667827484257" duration="6432000" />
+      <workItem from="1667933829623" duration="3870000" />
     </task>
     <servers />
   </component>
@@ -174,7 +176,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cours21_ExerciceTab/ExerciceTab.java</url>
-          <line>39</line>
+          <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,33 +1,33 @@
-package cours21_ExerciceTab;
+package cours20_ExerciceTab;
 
 public class ExerciceTab {
-    public static int[] insererTableau(int[] tab1, int[] tab2, int indInsert) {
+    public static int[] insererTableau(int[] tab1, int[] tab2, int insertAt) {
         int[] tabOut;
         int iTab1;
         int iTabOut;
 
-        //Option : mais si on veut avoir un message précis et adapté à la situation
-        if (indInsert < 0 || tab1.length + 1 <= indInsert )
-            throw new IndexOutOfBoundsException("Indice invalide : " + indInsert);
-
+        if (insertAt < 0 || insertAt > tab1.length) {
+            throw new IndexOutOfBoundsException("Indice invalide : " + insertAt);
+        }
 
         tabOut = new int[tab1.length + tab2.length];
 
         iTabOut = 0;
-        for (iTab1 = 0; iTab1 < indInsert; iTab1++) {
-            tabOut[iTabOut++] = tab1[iTab1];
+        for (iTab1 = 0; iTab1 < insertAt; iTab1++) {
+            tabOut[iTabOut++]= tab1[iTab1];
         }
 
         for (int iTab2 = 0; iTab2 < tab2.length; iTab2++) {
-            tabOut[iTabOut++] = tab2[iTab2];
+            tabOut[iTabOut++]= tab2[iTab2];
         }
 
         for (; iTab1 < tab1.length; iTab1++) {
-            tabOut[iTabOut++] = tab1[iTab1];
+            tabOut[iTabOut++]= tab1[iTab1];
         }
 
         return tabOut;
     }
+
     public static int[] insererTableauV2(int[] tab1, int[] tab2, int indInsert) {
         int[] tabOut;
         int tab1I;
