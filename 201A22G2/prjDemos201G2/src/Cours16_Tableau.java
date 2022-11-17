@@ -50,7 +50,7 @@ public class Cours16_Tableau {
     }
 
     private void jouerAvecTableau3() {
-        int[] tabNb = {2, 4, 5, 3}; //initalisation avec une constante tableau
+        int[] tabNb = {2, 4, 5, 3}; //initialisation avec une constante tableau
         int i = 2;
 
         System.out.println(i);
