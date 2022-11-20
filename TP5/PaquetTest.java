@@ -1,17 +1,14 @@
-package tp5Enseignant.paquet;//420-201 – tp4 - Jeu de carte
-//Nom : Aubé
-//Prénom : Robert
-
+package tp5Enseignant.paquet;
 /**
  * Classe de test de la classe Paquet
  * Pour Fonctionner :
  * 1 - PaquetTest doit préalablement passer tous les tests sur votre classe Paquet.
  * 2 - Vous devez respecter les noms de méthodes données dans ce travail.
- * @version 201A21 - V1
+ * @version 201A22 - V1
  * @author Robert Aubé
  */
+
  public class PaquetTest {
-    Paquet p;
     private boolean testReussi;
     private String descriptionTest;
 
