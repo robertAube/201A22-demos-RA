@@ -1,11 +1,14 @@
-package paquet;
-import java.util.Arrays;
+package tp5Enseignant.paquet;
 
 /**
- * Classe de testes de la classe Carte
+ * Classe de testes de la classe Paquet
+ *
  * @version 201A22 - V1
  * @author Robert Aubé
  */
+
+import java.util.Arrays;
+
 public class CarteTest {
     private boolean testReussi;
     private String descriptionTest;
@@ -29,12 +32,6 @@ public class CarteTest {
         testReussi = Arrays.toString(Carte.COULEURS_VALIDES).equals("[pique, trèfle, carreau, coeur]");
     }
 
-    private void afficherResultatDuTest() {
-        String str;
-        str = testReussi ? "Ok: " : "XXXX - Le test ne passe pas: ";
-        str += descriptionTest;
-        System.out.println(str);
-    }
 
     private void tester_ValiderCouleur() {
         String[] couleursValides = {"pique", "trèfle", "carreau", "coeur"};
@@ -63,7 +60,6 @@ public class CarteTest {
         }
         afficherResultatDuTest();
     }
-
 
     private void tester_ValiderValeur() {
         System.out.println("testerValiderValeur()");
@@ -233,6 +229,13 @@ public class CarteTest {
         descriptionTest = "equals : la comparaison de 2 cartes de même couleur, de même valeur et d'instances différentes retourne true.";
         testReussi = c2pi.equals(c2piV2);
         afficherResultatDuTest();
+    }
+
+    private void afficherResultatDuTest() {
+        StringBuilder str = new StringBuilder();
+        str.append(testReussi ? "Ok: " : "XXXX - Le test ne passe pas: ");
+        str.append(descriptionTest);
+        System.out.println(str);
     }
 
     public static void main(String[] args) {
