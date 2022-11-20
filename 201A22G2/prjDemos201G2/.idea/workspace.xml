@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/cours24_ObjectEnum/Coordonnee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cours24_ObjectEnum/JourDeSemaine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cours24_ObjectEnum/JourSemaine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cours24_ObjectEnum/ObjectTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cours24_ObjectEnum/Pizza.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/cours23_equals/Coordonnee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cours23_equals/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cours23_equals/TestsEquals.java" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cours20_Pizza_OO/JouerAvecPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cours20_Pizza_OO/JouerAvecPizza.java" afterDir="false" />
     </list>
@@ -37,25 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G2/prjDemos201G2/src/cours20_Pizza_OO&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/201A22-demos-RA/201A22G2/prjDemos201G2/src/cours20_Pizza_OO",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\201A22-demos-RA\201A22G2\prjDemos201G2\src\cours20_Pizza_OO" />
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src\cours20_Pizza_OO" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.JourDeSemaine">
+=======
+  <component name="RunManager" selected="Application.TestsEquals">
+>>>>>>> Stashed changes
     <configuration name="ExerciceTabTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cours21_ExerciceTab.ExerciceTabTest" />
       <module name="prjDemos201G2" />
@@ -69,12 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="JourDeSemaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cours24_ObjectEnum.JourDeSemaine" />
       <module name="prjDemos201G2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cours24_ObjectEnum.*" />
+=======
+    <configuration name="TestsEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cours23_equals.TestsEquals" />
+      <module name="prjDemos201G2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cours23_equals.*" />
+>>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +133,11 @@
       <module name="prjDemos201G2" />
       <extension name="coverage">
         <pattern>
+<<<<<<< Updated upstream
           <option name="PATTERN" value="cours24_ObjectEnum.*" />
+=======
+          <option name="PATTERN" value="cours23_equals.*" />
+>>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +147,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Application.JourDeSemaine" />
         <item itemvalue="Application.ObjectTest" />
         <item itemvalue="Application.UtilitaireTest" />
         <item itemvalue="Application.ExerciceTabTest" />
         <item itemvalue="Application.cours20_Pizza_OO.JouerAvecPizza" />
+=======
+        <item itemvalue="Application.TestsEquals" />
+        <item itemvalue="Application.UtilitaireTest" />
+        <item itemvalue="Application.ExerciceTabTest" />
+        <item itemvalue="Application.cours20_Pizza_OO.JouerAvecPizza" />
+        <item itemvalue="Application.cours19_Pizza_OO.JouerAvecPizza" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +196,11 @@
       <workItem from="1667827484257" duration="6432000" />
       <workItem from="1667933829623" duration="3870000" />
       <workItem from="1668431350861" duration="6253000" />
+<<<<<<< Updated upstream
       <workItem from="1668719630616" duration="4447000" />
+=======
+      <workItem from="1668972056318" duration="315000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
