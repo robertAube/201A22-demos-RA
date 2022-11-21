@@ -1,4 +1,4 @@
-package cours23_equals;
+package cours24_equals;
 
 public class Coordonnee {
     public static final int MIN_XY = 0;
@@ -21,6 +21,24 @@ public class Coordonnee {
 
     public int getX() {
         return x;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Coordonnee that = (Coordonnee) o;
+
+        if (x != that.x) return false;
+        return y == that.y;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = x;
+        result = 31 * result + y;
+        return result;
     }
 
     public void setX(int x) {

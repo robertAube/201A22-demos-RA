@@ -1,4 +1,4 @@
-package cours24_ObjectEnum;
+package cours23_ObjectEnum;
 
 public class ObjectTest {
     public ObjectTest() {

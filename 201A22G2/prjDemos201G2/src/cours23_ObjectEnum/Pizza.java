@@ -1,4 +1,4 @@
-package cours23_equals;
+package cours23_ObjectEnum;
 
 public class Pizza {
     //constante : valeur nommée qui ne peut pas être changée. Le nom doit être en majuscule.
