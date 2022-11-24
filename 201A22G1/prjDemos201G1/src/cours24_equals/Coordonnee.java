@@ -64,4 +64,22 @@ public class Coordonnee {
     public static boolean estValideY(int y) {
         return MIN_XY <= y && y <= MAX_XY;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Coordonnee that = (Coordonnee) o;
+
+        if (x != that.x) return false;
+        return y == that.y;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = x;
+        result = 31 * result + y;
+        return result;
+    }
 }

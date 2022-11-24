@@ -96,4 +96,43 @@ public class Pizza {
     public void setCouleur(String couleur) {
         this.couleur = couleur;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Pizza pizza = (Pizza) o;
+
+        if (vitesse != pizza.vitesse) return false;
+        if (position != null ? !position.equals(pizza.position) : pizza.position != null) return false;
+        return couleur != null ? couleur.equalsIgnoreCase(pizza.couleur) : pizza.couleur == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = position != null ? position.hashCode() : 0;
+        result = 31 * result + vitesse;
+        result = 31 * result + (couleur != null ? couleur.hashCode() : 0);
+        return result;
+    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) { //si c'est la même instance
+//            return true;
+//        }
+//        if (o == null) { //si L'objet reçu en argument est null
+//            return false;
+//        }
+//        if (getClass() != o.getClass()) { //si this est de même type que o
+//            return false;
+//        }
+//
+//        Pizza pizza = (Pizza) o; //
+//
+//        if (vitesse != pizza.vitesse) {
+//            return false;
+//        }
+//        return couleur.equalsIgnoreCase(pizza.couleur);
+//    }
 }
