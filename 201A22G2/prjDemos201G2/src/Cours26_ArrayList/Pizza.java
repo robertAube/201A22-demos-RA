@@ -1,4 +1,4 @@
-package cours24_equals;
+package Cours26_ArrayList;
 
 public class Pizza {
     //constante : valeur nommée qui ne peut pas être changée. Le nom doit être en majuscule.

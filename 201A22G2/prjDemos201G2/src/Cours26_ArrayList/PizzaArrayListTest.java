@@ -15,13 +15,6 @@ public class PizzaArrayListTest {
         testerRetirerPizza();
     }
 
-    private void testerRetirerPizza() {
-        listPizza.enleverPizza(0);
-        System.out.println(listPizza.toString());
-        listPizza.enleverPizza(new Pizza(5,1,"verte", 4));
-        System.out.println("tester retire objet : " + listPizza.toString());
-    }
-
     private void ajouterDesPizzas() {
         listPizza.ajouterPizza(new Pizza(1,1,"bleu", 4));
         listPizza.ajouterPizza(new Pizza(1,1,"rouge", 4));
@@ -35,6 +28,14 @@ public class PizzaArrayListTest {
     private void avancerDesPizzas() {
         listPizza.avancerToutesLesPizzas();
     }
+
+    private void testerRetirerPizza() {
+        listPizza.enleverPizza(0);
+        System.out.println(listPizza.toString());
+        listPizza.enleverPizza(new Pizza(5,1,"verte", 4));
+        System.out.println("tester retire objet : " + listPizza.toString());
+    }
+
     public static void main(String[] args) {
         new PizzaArrayListTest();
     }

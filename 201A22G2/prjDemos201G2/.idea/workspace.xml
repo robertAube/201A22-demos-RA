@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad30fde-c068-4d99-957b-1d2c89ff4904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours25_ClasseEnveloppe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cours25_ClasseEnveloppe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cours26_ArrayList/Coordonnee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cours26_ArrayList/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cours26_ArrayList/PizzaArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cours26_ArrayList/PizzaArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours26_ArrayList/PizzaArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours26_ArrayList/PizzaArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours26_ArrayList/PizzaArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../201A22G1/prjDemos201G1/src/Cours26_ArrayList/PizzaArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G2/prjDemos201G2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Q:/Cours/!A2022/201A22 - intro java (ra)/201A22-demos-RA/201A22G2/prjDemos201G2/src/Cours26_ArrayList",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src\Cours26_ArrayList" />
+      <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src" />
       <recent name="Q:\Cours\!A2022\201A22 - intro java (ra)\201A22-demos-RA\201A22G2\prjDemos201G2\src\cours20_Pizza_OO" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -159,6 +164,7 @@
       <workItem from="1669323021125" duration="157000" />
       <workItem from="1669323684162" duration="1921000" />
       <workItem from="1669325643924" duration="3000" />
+      <workItem from="1669751767484" duration="965000" />
     </task>
     <servers />
   </component>

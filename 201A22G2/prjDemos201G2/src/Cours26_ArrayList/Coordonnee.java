@@ -1,4 +1,4 @@
-package cours24_equals;
+package Cours26_ArrayList;
 
 public class Coordonnee {
     public static final int MIN_XY = 0;
