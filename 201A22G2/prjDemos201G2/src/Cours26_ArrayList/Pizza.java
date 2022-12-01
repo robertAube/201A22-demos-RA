@@ -116,6 +116,7 @@ public class Pizza {
 //        }
 //    }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -123,10 +124,20 @@ public class Pizza {
 
         Pizza pizza = (Pizza) o;
 
-        if (vitesse != pizza.vitesse) return false;
-        if (position != null ? !position.equals(pizza.position) : pizza.position != null) return false;
-        return couleur != null ? couleur.equalsIgnoreCase(pizza.couleur) : pizza.couleur == null;
+        return position != null ? position.equals(pizza.position) : pizza.position == null;
     }
+
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//
+//        Pizza pizza = (Pizza) o;
+//
+//        if (vitesse != pizza.vitesse) return false;
+//        if (position != null ? !position.equals(pizza.position) : pizza.position != null) return false;
+//        return couleur != null ? couleur.equalsIgnoreCase(pizza.couleur) : pizza.couleur == null;
+//    }
 
     @Override
     public int hashCode() {

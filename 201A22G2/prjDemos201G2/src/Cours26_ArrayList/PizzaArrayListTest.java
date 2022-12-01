@@ -31,7 +31,7 @@ public class PizzaArrayListTest {
 
     private void testerRetirerPizza() {
         listPizza.enleverPizza(0);
-        System.out.println(listPizza.toString());
+        afficherDesPizzas();
         listPizza.enleverPizza(new Pizza(5,1,"verte", 4));
         System.out.println("tester retire objet : " + listPizza.toString());
     }
