@@ -1,7 +1,5 @@
 package cours19_pizza_oo;
 
-import jdk.jshell.spi.ExecutionControl;
-
 public class Coordonnee {
     //Doit être positif
     public static final int MIN_XY = 0;
@@ -46,6 +44,14 @@ public class Coordonnee {
         }
     }
 
+    public void setY(int y) {
+        if (estValideY(y)) {
+            this.y = y;
+        }
+        else {
+            throw new IllegalArgumentException("Y est invalide : " + y);
+        }
+    }
     public int getY() {
         return y;
     }
@@ -61,12 +67,4 @@ public class Coordonnee {
         return ("(" + this.x + ", " + this.y + ")");
     }
 
-    public void setY(int y) {
-        if (estValideY(y)) {
-            this.y = y;
-        }
-        else {
-            throw new IllegalArgumentException("Y est invalide : " + y);
-        }
-    }
 }

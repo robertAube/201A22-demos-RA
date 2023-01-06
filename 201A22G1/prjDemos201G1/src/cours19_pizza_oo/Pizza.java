@@ -1,12 +1,12 @@
 package cours19_pizza_oo;
 
 public class Pizza {
-    //constante: valeur nommée qui ne peut pas changée. Le nom d'une constante est toujours en MAJUSCULE.
+    //constante: valeur nommée qui ne peut pas changer. Le nom d'une constante est toujours en MAJUSCULE.
     //static : appartient à la classe: durée de vie infinie!
     //final: la variable doit être initialisée et ne pourra jamais être changée.
     public static final int VITESSE_MIN = 0;
-
     public static final int VITESSE_MAX = 50;
+
     //attributs ou variables d'instance : Existe seulement si j'ai une instance
     private Coordonnee position;
     private int vitesse;
@@ -32,7 +32,7 @@ public class Pizza {
         return couleur;
     }
 
-    //mutateurs : c'est les sets (setter)
+    //mutateurs : c'est les sets (setter) (ici, on ne valide pas l'attribut couleur)
     public void setCouleur(String couleur) {
         this.couleur = couleur;
     }
@@ -55,7 +55,7 @@ public class Pizza {
         position.move(x,y);
     }
 
-    //Surcharge : même nom de méthode mais arguments différents en nombre et ou en type
+    //Surcharge : même nom de méthode, mais arguments différents en nombre et ou en type
     public void setXY(Coordonnee position) {
         this.position = position;
     }

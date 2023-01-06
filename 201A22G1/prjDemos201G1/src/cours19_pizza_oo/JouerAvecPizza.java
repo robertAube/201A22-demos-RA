@@ -46,8 +46,6 @@ public class JouerAvecPizza {
         if (Pizza.estValide(x, y)) {
             p1 = new Pizza(x, y, 22, "Jaune");
         }
-
-
     }
 
     private void testerSetXYV1() {

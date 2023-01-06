@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/201A22-demos-RA.iml" filepath="$PROJECT_DIR$/201A22-demos-RA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/201A22G2/PremierProjet/PremierProjet.iml" filepath="$PROJECT_DIR$/201A22G2/PremierProjet/PremierProjet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/201A22G1/PremierProjet/PremierProjet1.iml" filepath="$PROJECT_DIR$/201A22G1/PremierProjet/PremierProjet1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/201A22G1/prjDemos201G1/prjDemos201G1.iml" filepath="$PROJECT_DIR$/201A22G1/prjDemos201G1/prjDemos201G1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/201A22G2/prjDemos201G2/prjDemos201G2.iml" filepath="$PROJECT_DIR$/201A22G2/prjDemos201G2/prjDemos201G2.iml" />
+    </modules>
+  </component>
+</project>
